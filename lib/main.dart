@@ -62,15 +62,14 @@ class _MyHomePageState extends State<MyHomePage> {
                       }
                     });
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      notes[index],
-                      style: TextStyle(fontSize: 30),
-                    ),
+                  child: Container(
+                    padding: EdgeInsets.all(0.8), //You can use EdgeInsets like above
+                    margin: EdgeInsets.only(left: 5.0, top: 10.0, right: 15.0, bottom: 20.0),
+                    child: Center(child: Text(notes[index],)),
                   ),
                 );
               },
+
             ),
             Text(
               "otrooooooo",
