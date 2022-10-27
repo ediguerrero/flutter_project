@@ -40,4 +40,6 @@ class EditNote extends StatelessWidget {
     final note = controller.text;
     Navigator.pop(context, controller.text);
   }
+
+
 }
